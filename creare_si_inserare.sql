@@ -525,6 +525,10 @@ insert into "Livestream"("LeagueID", "BroadcasterID", "StartDate", "EndDate")
 VALUES (5,3,TO_DATE('2020-06-01','YYYY-MM-DD'), TO_DATE('2025-06-01','YYYY-MM-DD'));
 insert into "Livestream"("LeagueID", "BroadcasterID", "StartDate", "EndDate")
 VALUES (6,1,TO_DATE('2016-06-01','YYYY-MM-DD'), TO_DATE('2022-06-01','YYYY-MM-DD'));
+insert into "Livestream"("LeagueID", "BroadcasterID", "StartDate", "EndDate")
+VALUES (6,4,TO_DATE('2020-06-01','YYYY-MM-DD'), TO_DATE('2023-06-01','YYYY-MM-DD'));
+insert into "Livestream"("LeagueID", "BroadcasterID", "StartDate", "EndDate")
+VALUES (6,5,TO_DATE('2021-06-01','YYYY-MM-DD'), TO_DATE('2025-06-01','YYYY-MM-DD'));
 
 DROP SEQUENCE AUTO_ID;
 
